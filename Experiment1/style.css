@@ -1,0 +1,26 @@
+body {
+  background-color:blanchedalmond;
+  color:white;
+}
+
+h1 {
+  color: white;
+}
+
+/* Styles ALL p elements unless its overridden by a class or an id style */
+p {
+  background-color: lavender;
+  color: pink;
+  border: 10px dotted blue;
+}
+
+/* styles JUST the element with the important id */
+#important {
+  color: orange;
+}
+
+/* Styles all elements with the lessimportant class */
+.lessimportant {
+  color: blue;
+  margin-left: 10px;
+}
